@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-Poppins;
+  }
+  input,
+  button {
+    @apply !outline-none border-0;
+    font-family: inherit;
+  }
+  ::placeholder {
+    @apply !text-gray-700;
+  }
+}
