@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 
-const Api_key = "5c86490ff1685b81ccc2dcc182a48a32";
+const Api_key = "";
 
 const App = () => {
   const inputRef = useRef(null);
